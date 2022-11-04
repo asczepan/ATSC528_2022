@@ -1,0 +1,22 @@
+Alec Sczepanski
+ATSC528
+Assignment #2, Question 5
+
+
+i) As seen on the first contoured analysis (first pass), there is a trough over the mountainous west whose axis extends from Idaho through Arizona, and a ridge whose axis runs through the Midwest and Great Lakes. Zonal flow exists over a good portion of Canada (specifically northern Manitoba, northern Ontario, southern Hudson Bay, central Quebec). 
+
+With subsequent passes, the trough in the west extends further south and east into New Mexico and Texas, the ridge in the east is more broad, and flow over Canada is not as zonal with a rather strong height gradient over the Hudson Bay.
+
+
+---
+
+
+ii) With each subsequent pass, details become more apparent in data-rich regions and contours begin taking on strange and unrealistic characteristics in data-sparse regions. For example, in the second pass, the 5400-m contour over NW Montana is unrealistically pointed, whereas the same location in the first pass is much smoother. This same contour in the third pass extends further south and is smoother than in the second pass, but still not as smooth as it should be. Another point of interest is the 5880-m contour over the Gulf of Mexico. This contour is non-existent in the first pass, is unrealistically jagged in the second pass, and discontinuous in the third pass. This makes sense since data is sparse over the Gulf, but is nonetheless unrealistic.
+
+The first pass is overall the smoothest. This makes sense since it is the background pass, essentially just the observations fit to the analysis grid with no successive corrections performed. This also means that the first pass has the fewest details and shows a coarse look at the overall flow. The second pass retains much of the smoothness in the overall flow, but shows the trough in the west more amplified and a tighter height gradient over the Central Plains and over Canada, overall showing more details in each of the features. These characteristics are exaggerated in the third pass where the analysis starts to become too similar to observations and imperfections in observations start to contaminate the analysis.
+
+
+---
+
+
+iii) With each successive correction pass, more details are resolved in the flow (i.e. the analysis increasingly converges to observations), however the analysis becomes increasingly noisy and skewed to an incorrect result which is not desireable. A single pass will retain the large-scale features in the observations, but miss smaller-scale features. These smaller-scale features will be resolved in each subsequent pass, however imperfections in the observations begin to contaminate the analysis, creating unrealistic contours and discontinuities in some situations. So, while a certain level of successive corrections is useful in resolving smaller-scale features that exist (e.g. shortwaves), too many successive corrections creates too much noise and unrealistic features in the analysis.
