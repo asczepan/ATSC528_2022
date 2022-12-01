@@ -1,0 +1,17 @@
+Alec Sczepanski
+ATSC 528 HW #3 Short Answers
+
+
+i) There is a trough whose axis extends through the Rockies from Alberta through Idaho and down into New Mexico and Texas. There is a broad ridge over the eastern half of the U.S. whose axis cuts through the midwest and the Great Lakes region. Zonal flow exists over Ontario, Quebec, and the southern Hudson Bay.
+
+---
+
+ii) Each of the three analyses have similar-looking synoptic scale features with contours in very similar positions analysis-to-analysis. With increasing number of points (N=2 to N=10), the contours become smoother. In other words, the contours in the N=2 plot are rather jagged, whereas the contours in the N=10 plot are much smoother and rounded (for instance, the 5400-m contour over Idaho is unrealistically pointed with N=2, but much smoother with N=10). 
+
+With N=2, only the 2 closest observations stations are being considered for each analysis point, causing localized features to stick out in data-rich regions (e.g. the bump in the 5640-m contour over east-central Kansas) and jaggedness in data-sparse regions (e.g. the unrealistically pointed 5400-m contour over Idaho).
+
+With N=10, the 10 closest observations stations are being considered for each analysis point. This causes localized featured to be smoothed out in data-rich regions (the bump in the 5640-m contour over Kansas is smoothed out with N=10) and farther-reaching observations influence analysis points in data-sparce regions, allowing for a smoother analysis in data-sparse regions (the 5400-m contour over Idaho is much smoother).
+
+---
+
+iii) With increasing number of points considered for the analysis, the resulting analysis becomes smoother. Synoptic-scale features are retained with larger numbers of points without the addition of noise seen with a smaller number of points, which is desireable with upper-air analysis. This may not be as desireable closer to the surface where capturing mesoscale or terrain-driven features is desireable, thus fewer points for the analysis may be more desireable.
