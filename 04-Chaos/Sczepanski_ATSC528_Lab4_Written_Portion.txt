@@ -1,0 +1,10 @@
+ATSC 528 Lab #4
+Alec Sczepanski
+
+
+The provided plot shows (a) output x-values, (b) output y-values, and (c) output z-values for each simulation. The simulation with an initial x-value of 2.50 is in blue. The simulation with an initial x-value of 2.49 is in red. The x-axis is number of time steps, where one time step is equivalent to 4 hours (thus, 720 time steps = 2880 hours = 120 days).
+
+The two simulations do not stay the same throughout the entire time period. They are nearly identical for the first 100 time steps (first 400 hours) of the simulation and stay similar, but not the same, through the first 400 time steps (1600 hours). After 400 time steps, the two simulations diverge greatly and never converge through the remainder of the simulations. No ending x-, y-, or z-values are identical between the simulations.
+
+Relating this to NWP, this illustrates that even tiny errors (in this case, difference of 0.01 in initial x-values) can lead to wildly different solutions. Thus, using this as a proxy for NWP, if initial conditions are not accurate and balanced, the solution will very likely stray away from the expected outcome. (Something like this is great for an ensemble since it can illustrate forecast uncertainty, but detrimental for a standalone deterministic model since it pulls the model away from a true solution.)
+
